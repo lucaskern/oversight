@@ -6,5 +6,5 @@ After the fun, users will be eductated on how the game they played was designed 
 
 Developers: Lucas Kern & Philip Petronis
 
-Technologies: HTML, CSS, TBD
+Technologies: HTML, CSS, GameMaker
 
