@@ -35,10 +35,12 @@ else
 	/// @DnDArgument : "op" "3"
 	if(countdownTime <= 0)
 	{
-		/// @DnDAction : YoYo Games.Rooms.Restart_Room
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 680883DE
+		/// @DnDHash : 5DFA3A75
 		/// @DnDParent : 17C61F99
-		room_restart();
+		/// @DnDArgument : "room" "room_reveal"
+		/// @DnDSaveInfo : "room" "99f1fdfb-6a4e-4f3c-8de9-02cf0ab6d06b"
+		room_goto(room_reveal);
 	}
 }
