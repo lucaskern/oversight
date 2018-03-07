@@ -13,7 +13,8 @@
         "78a28819-3002-4ec3-85fa-8a38715ccf01",
         "3f4aec02-dbbd-459c-b559-8283ad80ed2a",
         "aa6f75ce-6bfd-40b5-a929-f0c86a1993a0",
-        "fd3a7ee2-b5dc-4df1-bef4-45f9d30f3cd1"
+        "fd3a7ee2-b5dc-4df1-bef4-45f9d30f3cd1",
+        "c76a9644-e079-4905-8122-5b571556ec55"
     ],
     "IsDnD": true,
     "layers": [
@@ -139,7 +140,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_9BB874F","id": "c76a9644-e079-4905-8122-5b571556ec55","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_9BB874F","objId": "8bd83bea-4f60-4996-a71a-e758b57b92af","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 960,"y": 576}
             ],
             "layers": [
 
@@ -156,7 +157,7 @@
             "name": "Assets_1",
             "id": "a9eda7af-a8ed-46a7-a5a4-cfe5c650d770",
             "assets": [
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_2CEF3AEA","id": "3281f58f-75bb-47ba-b4c2-d72da3689bf0","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 5.5,"scaleY": 15.5,"mvc": "1.0","spriteId": "b1f73500-cd8a-41f7-aa4b-634786d35071","userdefined_animFPS": false,"x": 800,"y": 96}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_2CEF3AEA","id": "3281f58f-75bb-47ba-b4c2-d72da3689bf0","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 5.145161,"scaleY": 14.5,"mvc": "1.0","spriteId": "b1f73500-cd8a-41f7-aa4b-634786d35071","userdefined_animFPS": false,"x": 800,"y": 96}
             ],
             "depth": 500,
             "grid_x": 32,

@@ -4,9 +4,9 @@
 /// @DnDApplyTo : 28412ae0-bf76-4ade-8782-91a82a98835b
 /// @DnDArgument : "expr" "-10"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "score2"
+/// @DnDArgument : "var" "score1"
 with(scores) {
-score2 += -10;
+score1 += -10;
 
 }
 
@@ -58,3 +58,15 @@ instance_destroy();
 /// @DnDHash : 6FD6E55A
 /// @DnDApplyTo : 380d33f6-3daf-46ec-886e-759b48e27f8d
 with(obj_balloonLeft) instance_destroy();
+
+/// @DnDAction : YoYo Games.Buffers.Buffer_Create
+/// @DnDVersion : 1
+/// @DnDHash : 26C08297
+buffer = buffer_create(64, buffer_grow, 1);
+
+/// @DnDAction : YoYo Games.Timelines.Set_Timeline
+/// @DnDVersion : 1
+/// @DnDHash : 21338690
+timeline_index = noone;
+timeline_loop = 0;
+timeline_running = 1;

@@ -8,7 +8,8 @@ draw_set_font(fnt_score);
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 0BE65252
-draw_set_halign(fa_left);
+/// @DnDArgument : "halign" "fa_center"
+draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
@@ -20,24 +21,17 @@ draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 23742848
-/// @DnDArgument : "x" "30"
+/// @DnDArgument : "x" "room_width * .25"
 /// @DnDArgument : "y" "30"
-/// @DnDArgument : "caption" ""Player 1 Score: ""
+/// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "score1"
-draw_text(30, 30, string("Player 1 Score: ") + string(score1));
-
-/// @DnDAction : YoYo Games.Drawing.Set_Alignment
-/// @DnDVersion : 1.1
-/// @DnDHash : 1CF85C1C
-/// @DnDArgument : "halign" "fa_right"
-draw_set_halign(fa_right);
-draw_set_valign(fa_top);
+draw_text(room_width * .25, 30, string("") + string(score1));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 2F07C75B
-/// @DnDArgument : "x" "room_width "
+/// @DnDArgument : "x" "room_width * .75"
 /// @DnDArgument : "y" "30"
-/// @DnDArgument : "caption" ""Player 2 Score: ""
+/// @DnDArgument : "caption" "" ""
 /// @DnDArgument : "var" "score2"
-draw_text(room_width , 30, string("Player 2 Score: ") + string(score2));
+draw_text(room_width * .75, 30, string(" ") + string(score2));
