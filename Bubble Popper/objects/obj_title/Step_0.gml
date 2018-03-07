@@ -21,8 +21,8 @@ if(image_alpha < 1.0)
 /// @DnDHash : 79FA2C10
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "room_height / 2 - 50"
-if(y > room_height / 2 - 50)
+/// @DnDArgument : "value" "room_height / 2 "
+if(y > room_height / 2 )
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

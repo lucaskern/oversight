@@ -35,7 +35,7 @@
             "m_owner": "380d33f6-3daf-46ec-886e-759b48e27f8d"
         },
         {
-            "id": "6e71bfff-7fd4-4f87-9fc5-3eaced8081b0",
+            "id": "fc3c1a3e-2507-4de3-bda2-83c60f1c248a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -58,8 +58,23 @@
     "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShape": 0,
+    "physicsShapePoints": [
+        {
+            "id": "306edd38-5b30-48e7-b3d0-8aaa845856f2",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "id": "4ab2562f-f6c3-46b8-afa7-523c4027b62c",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 91,
+            "y": 100
+        }
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
