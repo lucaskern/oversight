@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 57B3A1E0
 /// @DnDApplyTo : 28412ae0-bf76-4ade-8782-91a82a98835b
-/// @DnDArgument : "expr" "-10"
+/// @DnDArgument : "expr" "-30"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "score1"
 with(scores) {
-score1 += -10;
+score1 += -30;
 
 }
 
@@ -46,7 +46,8 @@ part_emitter_region(global.p_bomb, emitter, x + 0, x + 64, y + 0, y + 64, ps_sha
 /// @DnDHash : 010A2643
 /// @DnDArgument : "system" "global.p_bomb"
 /// @DnDArgument : "type" "global.p_bombType"
-part_emitter_burst(global.p_bomb, emitter, global.p_bombType, 10);
+/// @DnDArgument : "number" "10 "
+part_emitter_burst(global.p_bomb, emitter, global.p_bombType, 10 );
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

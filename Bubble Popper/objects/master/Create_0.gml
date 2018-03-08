@@ -55,9 +55,10 @@ global.p_bombType = part_type_create();
 /// @DnDVersion : 1
 /// @DnDHash : 6DB20399
 /// @DnDArgument : "type" "global.p_bombType"
-/// @DnDArgument : "sizeincr" "0.1"
+/// @DnDArgument : "maxsize" "0.8"
+/// @DnDArgument : "sizeincr" "0.05"
 /// @DnDArgument : "wiggle" "0.2"
-part_type_size(global.p_bombType, 0.1, 1, 0.1, 0.2);
+part_type_size(global.p_bombType, 0.1, 0.8, 0.05, 0.2);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Sprite
 /// @DnDVersion : 1
@@ -71,10 +72,10 @@ part_type_sprite(global.p_bombType, spr_balloonRight, true, false, false);
 /// @DnDVersion : 1
 /// @DnDHash : 38045513
 /// @DnDArgument : "type" "global.p_bombType"
-/// @DnDArgument : "startcol" "$FFC9C9FF"
-/// @DnDArgument : "midcol" "$FFFFFF3D"
-/// @DnDArgument : "endcol" "$FF0000FF"
-part_type_colour3(global.p_bombType, $FFC9C9FF & $FFFFFF, $FFFFFF3D & $FFFFFF, $FF0000FF & $FFFFFF);
+/// @DnDArgument : "startcol" "$FF0000FF"
+/// @DnDArgument : "midcol" "$FF111116"
+/// @DnDArgument : "endcol" "$FFB7B7CC"
+part_type_colour3(global.p_bombType, $FF0000FF & $FFFFFF, $FF111116 & $FFFFFF, $FFB7B7CC & $FFFFFF);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Alpha
 /// @DnDVersion : 1

@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0196BB8F
+/// @DnDArgument : "expr" "x"
+/// @DnDArgument : "var" "targetX"
+targetX = x;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 0287D1DC
