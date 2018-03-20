@@ -1,41 +1,27 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 37CBB972
+/// @DnDInput : 4
 /// @DnDArgument : "value" "100"
+/// @DnDArgument : "value_1" "2 "
+/// @DnDArgument : "value_2" "false"
+/// @DnDArgument : "value_3" "false"
 /// @DnDArgument : "var" "padding"
+/// @DnDArgument : "var_1" "plays"
+/// @DnDArgument : "var_2" "spin"
+/// @DnDArgument : "var_3" "isStart"
 global.padding = 100;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 04BFCFFC
-/// @DnDArgument : "value" "1 "
-/// @DnDArgument : "var" "gameRound"
-global.gameRound = 1 ;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 2E4CBC54
-/// @DnDArgument : "value" "false"
-/// @DnDArgument : "var" "spin"
+global.plays = 2 ;
 global.spin = false;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 5F1BAA87
-/// @DnDArgument : "value" "false"
-/// @DnDArgument : "var" "isStart"
 global.isStart = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 560B5D8F
+/// @DnDInput : 2
 /// @DnDArgument : "var" "p_bomb"
+/// @DnDArgument : "var_1" "p_bombType"
 global.p_bomb = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 1E1E5F2F
-/// @DnDArgument : "var" "p_bombType"
 global.p_bombType = 0;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
@@ -119,13 +105,10 @@ part_type_gravity(global.p_bombType, 0, 0);
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 213D1055
+/// @DnDInput : 2
 /// @DnDArgument : "var" "p_bubble"
+/// @DnDArgument : "var_1" "p_bubbleType"
 global.p_bubble = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 1158CE52
-/// @DnDArgument : "var" "p_bubbleType"
 global.p_bubbleType = 0;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create

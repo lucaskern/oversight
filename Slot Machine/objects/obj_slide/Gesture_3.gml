@@ -2,10 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 61482642
 /// @DnDArgument : "var" "mouse_x"
-/// @DnDArgument : "not" "1"
 /// @DnDArgument : "op" "1"
 /// @DnDArgument : "value" "room_width * .66"
-if(!(mouse_x < room_width * .66))
+if(mouse_x < room_width * .66)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

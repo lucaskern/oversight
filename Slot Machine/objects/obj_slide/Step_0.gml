@@ -10,9 +10,9 @@ if(x > room_width * .33 )
 	/// @DnDVersion : 1
 	/// @DnDHash : 7EF79185
 	/// @DnDParent : 181C5822
-	/// @DnDArgument : "value" "-24 "
+	/// @DnDArgument : "value" "-12"
 	/// @DnDArgument : "value_relative" "1"
-	x += -24 ;
+	x += -12;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -58,6 +58,21 @@ else
 			/// @DnDParent : 0045E87B
 			/// @DnDArgument : "value" "room_width * .66"
 			x = room_width * .66;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 131BC45D
+		/// @DnDParent : 4E20AB73
+		else
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 7CDC0F3F
+			/// @DnDParent : 131BC45D
+			/// @DnDArgument : "expr" "false"
+			/// @DnDArgument : "var" "moved"
+			moved = false;
 		}
 	}
 }
