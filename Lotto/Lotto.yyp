@@ -12,7 +12,17 @@
         "modelName": "GMProjectParent",
         "mvc": "1.0",
         "alteredResources": [
-            
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "e5dc94b3-443d-42df-9957-a8a3e4bdbb6c",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
         ],
         "hiddenResources": [
             
@@ -133,6 +143,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "10a80a80-d364-4a46-badb-ad59aae23586",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "b24e5c7d-5458-4966-be65-301026a10312",
             "Value": {
                 "id": "4f75bced-0a1c-4251-b976-4cfc04d8bc77",
@@ -194,6 +212,14 @@
                 "id": "f8144ea4-22b0-46ea-ab73-a13284fd2514",
                 "resourcePath": "views\\ef5a4406-60c8-4eb5-ba55-771f4df1c8e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "db699160-7c3f-4594-b012-0644c0f0fbd3",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         }
     ],
