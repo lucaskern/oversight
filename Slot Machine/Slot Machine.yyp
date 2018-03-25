@@ -71,11 +71,35 @@
             }
         },
         {
+            "Key": "365e4b59-2661-4242-9553-c7b09dcfe61f",
+            "Value": {
+                "id": "1459e2b9-2b82-45dc-84f2-ae9ada42f2e4",
+                "resourcePath": "shaders\\shader0\\shader0.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "3be92946-bc14-441e-9c18-64ccaac03093",
+            "Value": {
+                "id": "627c7f96-2a16-4aa2-b5e7-37938610f25d",
+                "resourcePath": "sprites\\spr_box\\spr_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d5e2b86-7d25-4393-9e8d-8791f0d71046",
             "Value": {
                 "id": "bcca1e62-780c-447e-aab7-2cccf54eeb4e",
                 "resourcePath": "objects\\obj_title\\obj_title.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ebe7a50-1269-4f62-99f1-88b7b610b992",
+            "Value": {
+                "id": "98f950cb-45de-43a2-9b9d-989682053e50",
+                "resourcePath": "sprites\\spr_mazeTest\\spr_mazeTest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -156,6 +180,22 @@
                 "id": "80bd5873-0bf4-4ef5-8254-fe2702c86176",
                 "resourcePath": "views\\8f4a642c-ca17-433f-9136-d77717ec202d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "901279f3-7a8b-4880-a21e-d8778fb3e887",
+            "Value": {
+                "id": "3277421e-cb28-4eda-987c-4fb25addfb2a",
+                "resourcePath": "objects\\oBlur\\oBlur.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90e62955-1a4f-429e-a23c-7721e59c9154",
+            "Value": {
+                "id": "6688398e-8e1c-4cf5-8ee5-33eba4f6de66",
+                "resourcePath": "scripts\\draw_blur\\draw_blur.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,6 +343,14 @@
             }
         },
         {
+            "Key": "d167a2a2-2acf-4e8f-bd18-b8494b020e6d",
+            "Value": {
+                "id": "3c578ec1-e716-406b-8e27-39665a42363a",
+                "resourcePath": "objects\\obj_box\\obj_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d1a24693-c7d4-4211-a891-35c88b848cf0",
             "Value": {
                 "id": "44c6ace0-c690-48e6-bb12-c85a82fa410e",
@@ -392,7 +440,7 @@
         }
     ],
     "script_order": [
-        
+        "90e62955-1a4f-429e-a23c-7721e59c9154"
     ],
     "tutorial": ""
 }

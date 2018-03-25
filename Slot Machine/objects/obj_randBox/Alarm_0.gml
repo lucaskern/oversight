@@ -24,10 +24,10 @@ if(revolutions > 0)
 
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
-	/// @DnDHash : 5BF595B3
+	/// @DnDHash : 0AA65C52
 	/// @DnDParent : 4A3FA419
-	/// @DnDArgument : "value_relative" "1"
-	x += 0;
+	/// @DnDArgument : "instvar" "1"
+	y = 0;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

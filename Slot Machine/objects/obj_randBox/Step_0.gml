@@ -44,3 +44,10 @@ else
 		stop = true;
 	}
 }
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 545F9157
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 1);
