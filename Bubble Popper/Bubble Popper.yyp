@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "1009c382-00dd-48e3-be9d-a81ee88a2117",
+            "Value": {
+                "id": "02cba5f5-0caa-4769-bf24-05943374880c",
+                "resourcePath": "datafiles_yy\\scores.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "19cfd6a6-6757-4bb1-8d64-dd7cd4ef12a8",
             "Value": {
                 "id": "1c982441-1008-43e2-a31c-f506f8fb9971",

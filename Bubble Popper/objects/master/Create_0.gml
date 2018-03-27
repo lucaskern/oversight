@@ -1,5 +1,25 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 50B007E9
+/// @DnDArgument : "var" "scoreFile"
+global.scoreFile = 0;
+
+/// @DnDAction : YoYo Games.Files.Buffer_Load
+/// @DnDVersion : 1
+/// @DnDHash : 27969099
+/// @DnDArgument : "target" "global.scoreFile"
+/// @DnDArgument : "filename" ""scores.ini""
+global.scoreFile = buffer_load("scores.ini");
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 348E3F1A
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "roundLength"
+global.roundLength = 1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 37CBB972
 /// @DnDArgument : "value" "100"
 /// @DnDArgument : "var" "padding"

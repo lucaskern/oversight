@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 19B0FF88
-/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "expr" "global.roundLength"
 /// @DnDArgument : "var" "countdownTime"
-countdownTime = 10;
+countdownTime = global.roundLength;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
