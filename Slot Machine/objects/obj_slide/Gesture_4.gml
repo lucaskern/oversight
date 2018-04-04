@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 69668601
-/// @DnDArgument : "var" "x"
+/// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "room_width * .5"
-if(x >= room_width * .5)
+/// @DnDArgument : "value" "room_height * .25"
+if(y >= room_height * .25)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

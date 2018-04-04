@@ -44,7 +44,7 @@ else
 		/// @DnDHash : 11883669
 		/// @DnDParent : 70AD5001
 		/// @DnDArgument : "room" "room_game"
-		/// @DnDSaveInfo : "room" "47c75d4c-724b-4102-8c69-cff13e6159d2"
+		/// @DnDSaveInfo : "room" "ab9abab1-f0fe-4bad-a194-fd19af5cf915"
 		room_goto(room_game);
 	}
 

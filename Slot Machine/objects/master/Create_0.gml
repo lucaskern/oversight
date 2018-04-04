@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 37CBB972
-/// @DnDInput : 4
+/// @DnDInput : 8
 /// @DnDArgument : "value" "100"
 /// @DnDArgument : "value_1" "2 "
 /// @DnDArgument : "value_2" "false"
@@ -10,10 +10,18 @@
 /// @DnDArgument : "var_1" "plays"
 /// @DnDArgument : "var_2" "spin"
 /// @DnDArgument : "var_3" "isStart"
+/// @DnDArgument : "var_4" "slot1Val"
+/// @DnDArgument : "var_5" "slot2Val"
+/// @DnDArgument : "var_6" "slot3Val"
+/// @DnDArgument : "var_7" "slot4Val"
 global.padding = 100;
 global.plays = 2 ;
 global.spin = false;
 global.isStart = false;
+global.slot1Val = 0;
+global.slot2Val = 0;
+global.slot3Val = 0;
+global.slot4Val = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -23,6 +31,12 @@ global.isStart = false;
 /// @DnDArgument : "var_1" "p_bombType"
 global.p_bomb = 0;
 global.p_bombType = 0;
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 071F9898
+/// @DnDArgument : "var" "slots"
+slots = ds_list_create();
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1

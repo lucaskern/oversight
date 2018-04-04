@@ -1,0 +1,15 @@
+{
+    "id": "55efe58d-0db6-446f-8aed-b2ba4c9ee3ee",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "55efe58d-0db6-446f-8aed-b2ba4c9ee3ee",
+    "children": [
+        "3d5e2b86-7d25-4393-9e8d-8791f0d71046",
+        "8bd83bea-4f60-4996-a71a-e758b57b92af",
+        "9c6bf0e4-cec4-49e7-91a6-b284c8e1edf0"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Text",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
