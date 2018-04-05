@@ -62,7 +62,8 @@ part_emitter_region(global.p_bubble, emitter, x + 0, x + 64, y + 0, y + 64, ps_s
 /// @DnDHash : 1C6A6A3C
 /// @DnDArgument : "system" "global.p_bubble"
 /// @DnDArgument : "type" "global.p_bubbleType"
-part_emitter_burst(global.p_bubble, emitter, global.p_bubbleType, 10);
+/// @DnDArgument : "number" "3"
+part_emitter_burst(global.p_bubble, emitter, global.p_bubbleType, 3);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

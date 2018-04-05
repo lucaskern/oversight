@@ -59,15 +59,3 @@ instance_destroy();
 /// @DnDHash : 6FD6E55A
 /// @DnDApplyTo : 380d33f6-3daf-46ec-886e-759b48e27f8d
 with(obj_balloonLeft) instance_destroy();
-
-/// @DnDAction : YoYo Games.Buffers.Buffer_Create
-/// @DnDVersion : 1
-/// @DnDHash : 26C08297
-buffer = buffer_create(64, buffer_grow, 1);
-
-/// @DnDAction : YoYo Games.Timelines.Set_Timeline
-/// @DnDVersion : 1
-/// @DnDHash : 21338690
-timeline_index = noone;
-timeline_loop = 0;
-timeline_running = 1;

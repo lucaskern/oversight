@@ -6,9 +6,9 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 109,
+    "bbox_bottom": 132,
     "bbox_left": 0,
-    "bbox_right": 370,
+    "bbox_right": 328,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -34,6 +34,13 @@
                     "mvc": "1.0",
                     "FrameId": "34c093b9-0373-4439-8949-e55eb8a6d90c",
                     "LayerId": "bc0512ad-f76a-480f-a68e-48f8f94634e5"
+                },
+                {
+                    "id": "dc32604c-7339-4aea-bf0e-e88b013c8d22",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "34c093b9-0373-4439-8949-e55eb8a6d90c",
+                    "LayerId": "583ea41e-f153-4f6e-b52f-efc0ef8131ca"
                 }
             ]
         },
@@ -56,6 +63,13 @@
                     "mvc": "1.0",
                     "FrameId": "2e718316-aaba-49ba-97f3-0190444b9cb3",
                     "LayerId": "bc0512ad-f76a-480f-a68e-48f8f94634e5"
+                },
+                {
+                    "id": "2515f1ce-494c-44ea-9201-6cd230674e88",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "2e718316-aaba-49ba-97f3-0190444b9cb3",
+                    "LayerId": "583ea41e-f153-4f6e-b52f-efc0ef8131ca"
                 }
             ]
         }
@@ -65,6 +79,17 @@
     "height": 150,
     "layers": [
         {
+            "id": "583ea41e-f153-4f6e-b52f-efc0ef8131ca",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "daca33ae-c5d1-445b-986b-e638a87cbffb",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 100,
+            "visible": true
+        },
+        {
             "id": "bc0512ad-f76a-480f-a68e-48f8f94634e5",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
@@ -73,7 +98,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 4,

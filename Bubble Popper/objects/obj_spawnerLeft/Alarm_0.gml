@@ -17,6 +17,13 @@ if(global.isStart == true)
 	instance_create_layer( random_range(padding, room_width / 2  - padding ), random_range(padding, room_height - padding), "Lyr_Balloons", obj_spawnLeft);
 }
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0A5402AB
+/// @DnDArgument : "expr" "45 / global.gameRound"
+/// @DnDArgument : "var" "spawnSpeed"
+spawnSpeed = 45 / global.gameRound;
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 2CEBA56C
