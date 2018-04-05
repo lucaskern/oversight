@@ -2,11 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 57B3A1E0
 /// @DnDApplyTo : 28412ae0-bf76-4ade-8782-91a82a98835b
-/// @DnDArgument : "expr" "+5"
+/// @DnDArgument : "expr" "+1"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "score2"
 with(scores) {
-score2 += +5;
+score2 += +1;
 
 }
 

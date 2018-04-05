@@ -49,7 +49,7 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "hspeed": 1,
+            "hspeed": 0,
             "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -62,15 +62,15 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "c49f06ad-a34b-4a15-a7cc-b7ae84077a1a",
+            "spriteId": "516e493c-c756-482c-8f03-c68e632f43b9",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
-            "vspeed": 1,
+            "vspeed": 0,
             "vtiled": true,
-            "x": 0,
-            "y": 0
+            "x": -100,
+            "y": -80
         }
     ],
     "modelName": "GMRoom",

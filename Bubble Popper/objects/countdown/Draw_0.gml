@@ -8,8 +8,9 @@ draw_set_font(fnt_score);
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 66144FD0
-draw_set_colour($FFFFFFFF & $ffffff);
-draw_set_alpha(($FFFFFFFF >> 24) / $ff);
+/// @DnDArgument : "color" "$FF000000"
+draw_set_colour($FF000000 & $ffffff);
+draw_set_alpha(($FF000000 >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
@@ -22,7 +23,15 @@ draw_set_valign(fa_top);
 /// @DnDVersion : 1
 /// @DnDHash : 162C9688
 /// @DnDArgument : "x" "room_width / 2"
-/// @DnDArgument : "y" "30"
-/// @DnDArgument : "caption" ""Time: ""
+/// @DnDArgument : "y" "60"
+/// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "countdownTime"
-draw_text(room_width / 2, 30, string("Time: ") + string(countdownTime));
+draw_text(room_width / 2, 60, string("") + string(countdownTime));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 11B899D3
+/// @DnDArgument : "x" "100"
+/// @DnDArgument : "y" "100"
+/// @DnDArgument : "var" "global.gameRound"
+draw_text(100, 100, string("Caption: ") + string(global.gameRound));

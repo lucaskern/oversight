@@ -21,20 +21,20 @@ draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 23742848
-/// @DnDArgument : "x" "room_width * .25"
-/// @DnDArgument : "y" "30"
+/// @DnDArgument : "x" "room_width * .40"
+/// @DnDArgument : "y" "50"
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "score1"
-draw_text(room_width * .25, 30, string("") + string(score1));
+draw_text(room_width * .40, 50, string("") + string(score1));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 2F07C75B
-/// @DnDArgument : "x" "room_width * .75"
-/// @DnDArgument : "y" "30"
+/// @DnDArgument : "x" "room_width * .6"
+/// @DnDArgument : "y" "50"
 /// @DnDArgument : "caption" "" ""
 /// @DnDArgument : "var" "score2"
-draw_text(room_width * .75, 30, string(" ") + string(score2));
+draw_text(room_width * .6, 50, string(" ") + string(score2));
 
 /// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 /// @DnDVersion : 1

@@ -231,3 +231,18 @@ part_type_orientation(global.p_bubbleType, 0, 360, 0, 0, 0);
 /// @DnDHash : 6ABA9D3C
 /// @DnDArgument : "type" "global.p_bubbleType "
 part_type_gravity(global.p_bubbleType , 0, 0);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 29A06EDD
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "room_game"
+if(room == room_game)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 31B0D630
+	/// @DnDParent : 29A06EDD
+	/// @DnDArgument : "steps" "1"
+	alarm_set(0, 1);
+}

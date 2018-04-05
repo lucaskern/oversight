@@ -17,11 +17,11 @@ var finalScore = round(sizeScore);
 /// @DnDVersion : 1
 /// @DnDHash : 57B3A1E0
 /// @DnDApplyTo : 28412ae0-bf76-4ade-8782-91a82a98835b
-/// @DnDArgument : "expr" "+finalScore"
+/// @DnDArgument : "expr" "+1"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "score1"
 with(scores) {
-score1 += +finalScore;
+score1 += +1;
 
 }
 
