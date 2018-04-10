@@ -118,39 +118,59 @@ if(roomCurr == room_reveal)
 	/// @DnDHash : 47B8217B
 	/// @DnDParent : 5614EC99
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "room_height / 2"
+	/// @DnDArgument : "y" "room_height / 2 - 400"
 	/// @DnDArgument : "caption" ""Daily High Scores""
-	draw_text(room_width / 2, room_height / 2, string("Daily High Scores") + "");
+	draw_text(room_width / 2, room_height / 2 - 400, string("Daily High Scores") + "");
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 3B02F6E0
 	/// @DnDParent : 5614EC99
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "room_height / 2 + 100"
+	/// @DnDArgument : "y" "room_height / 2 - 300"
 	/// @DnDArgument : "caption" ""
 	/// @DnDArgument : "var" ""1:" + string(top1) "
-	draw_text(room_width / 2, room_height / 2 + 100,  + string("1:" + string(top1) ));
+	draw_text(room_width / 2, room_height / 2 - 300,  + string("1:" + string(top1) ));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 2FF561AC
 	/// @DnDParent : 5614EC99
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "room_height / 2 + 200"
+	/// @DnDArgument : "y" "room_height / 2 - 200"
 	/// @DnDArgument : "caption" ""
 	/// @DnDArgument : "var" ""2:" + string(top2)"
-	draw_text(room_width / 2, room_height / 2 + 200,  + string("2:" + string(top2)));
+	draw_text(room_width / 2, room_height / 2 - 200,  + string("2:" + string(top2)));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 77C3E5DE
 	/// @DnDParent : 5614EC99
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "room_height / 2 + 300"
+	/// @DnDArgument : "y" "room_height / 2 - 100"
 	/// @DnDArgument : "caption" ""
 	/// @DnDArgument : "var" ""3:" + string(top3) "
-	draw_text(room_width / 2, room_height / 2 + 300,  + string("3:" + string(top3) ));
+	draw_text(room_width / 2, room_height / 2 - 100,  + string("3:" + string(top3) ));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 536F48A7
+	/// @DnDParent : 5614EC99
+	/// @DnDArgument : "x" "room_width / 2"
+	/// @DnDArgument : "y" "room_height / 2 "
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "var" ""4:" + string(top4) "
+	draw_text(room_width / 2, room_height / 2 ,  + string("4:" + string(top4) ));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 0BB30CEC
+	/// @DnDParent : 5614EC99
+	/// @DnDArgument : "x" "room_width / 2"
+	/// @DnDArgument : "y" "room_height / 2 + 100"
+	/// @DnDArgument : "caption" ""
+	/// @DnDArgument : "var" ""5:" + string(top5) "
+	draw_text(room_width / 2, room_height / 2 + 100,  + string("5:" + string(top5) ));
 
 	/// @DnDAction : YoYo Games.Files.Close_Ini
 	/// @DnDVersion : 1

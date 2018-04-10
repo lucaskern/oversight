@@ -45,3 +45,31 @@ with(obj_spawnBombR) instance_destroy();
 /// @DnDHash : 28817BC0
 /// @DnDApplyTo : 9ae082c1-13d1-4b88-9aee-0dd18ed8776e
 with(obj_bombRight) instance_destroy();
+
+/// @DnDAction : YoYo Games.Particles.Part_Emit_Create
+/// @DnDVersion : 1
+/// @DnDHash : 6FCC8EB2
+/// @DnDArgument : "system" "global.p_bg"
+emitter = part_emitter_create(global.p_bg);
+
+/// @DnDAction : YoYo Games.Particles.Part_Emit_Region
+/// @DnDVersion : 1
+/// @DnDHash : 7826D829
+/// @DnDArgument : "left_relative" "1"
+/// @DnDArgument : "top" "room_height + 50"
+/// @DnDArgument : "top_relative" "1"
+/// @DnDArgument : "right" "room_width"
+/// @DnDArgument : "right_relative" "1"
+/// @DnDArgument : "bottom" "room_height + 120"
+/// @DnDArgument : "bottom_relative" "1"
+/// @DnDArgument : "system" "global.p_bg"
+part_emitter_region(global.p_bg, emitter, x + 0, x + room_width, y + room_height + 50, y + room_height + 120, ps_shape_rectangle, ps_distr_linear);
+
+/// @DnDAction : YoYo Games.Particles.Part_Emit_Emit
+/// @DnDVersion : 1
+/// @DnDHash : 11126B45
+/// @DnDArgument : "system" "global.p_bg"
+/// @DnDArgument : "type" "global.p_bgType"
+/// @DnDArgument : "event" "1"
+/// @DnDArgument : "number" "10 "
+part_emitter_stream(global.p_bg, emitter, global.p_bgType, 10 );

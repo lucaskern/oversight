@@ -51,19 +51,20 @@ emitter = part_emitter_create(global.p_bubble);
 /// @DnDHash : 426A8229
 /// @DnDArgument : "left_relative" "1"
 /// @DnDArgument : "top_relative" "1"
+/// @DnDArgument : "right" "0"
 /// @DnDArgument : "right_relative" "1"
+/// @DnDArgument : "bottom" "0"
 /// @DnDArgument : "bottom_relative" "1"
 /// @DnDArgument : "system" "global.p_bubble"
 /// @DnDArgument : "shape" "1"
-part_emitter_region(global.p_bubble, emitter, x + 0, x + 64, y + 0, y + 64, ps_shape_ellipse, ps_distr_linear);
+part_emitter_region(global.p_bubble, emitter, x + 0, x + 0, y + 0, y + 0, ps_shape_ellipse, ps_distr_linear);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Emit
 /// @DnDVersion : 1
 /// @DnDHash : 1C6A6A3C
 /// @DnDArgument : "system" "global.p_bubble"
 /// @DnDArgument : "type" "global.p_bubbleType"
-/// @DnDArgument : "number" "3"
-part_emitter_burst(global.p_bubble, emitter, global.p_bubbleType, 3);
+part_emitter_burst(global.p_bubble, emitter, global.p_bubbleType, 10);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
