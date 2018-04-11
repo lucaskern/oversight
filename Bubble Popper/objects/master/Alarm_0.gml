@@ -56,14 +56,15 @@ emitter = part_emitter_create(global.p_bg);
 /// @DnDVersion : 1
 /// @DnDHash : 7826D829
 /// @DnDArgument : "left_relative" "1"
-/// @DnDArgument : "top" "room_height + 50"
+/// @DnDArgument : "top" "room_height + 100"
 /// @DnDArgument : "top_relative" "1"
 /// @DnDArgument : "right" "room_width"
 /// @DnDArgument : "right_relative" "1"
-/// @DnDArgument : "bottom" "room_height + 120"
+/// @DnDArgument : "bottom" "room_height + 200"
 /// @DnDArgument : "bottom_relative" "1"
 /// @DnDArgument : "system" "global.p_bg"
-part_emitter_region(global.p_bg, emitter, x + 0, x + room_width, y + room_height + 50, y + room_height + 120, ps_shape_rectangle, ps_distr_linear);
+/// @DnDArgument : "distribution" "2"
+part_emitter_region(global.p_bg, emitter, x + 0, x + room_width, y + room_height + 100, y + room_height + 200, ps_shape_rectangle, ps_distr_invgaussian);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Emit
 /// @DnDVersion : 1
@@ -71,5 +72,4 @@ part_emitter_region(global.p_bg, emitter, x + 0, x + room_width, y + room_height
 /// @DnDArgument : "system" "global.p_bg"
 /// @DnDArgument : "type" "global.p_bgType"
 /// @DnDArgument : "event" "1"
-/// @DnDArgument : "number" "10 "
-part_emitter_stream(global.p_bg, emitter, global.p_bgType, 10 );
+part_emitter_stream(global.p_bg, emitter, global.p_bgType, 10);

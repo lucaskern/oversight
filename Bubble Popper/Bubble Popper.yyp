@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "896e1faa-1e19-4b46-9f52-48043c606c14",
+            "Value": {
+                "id": "05130ce1-b263-4e36-8a62-4bb52f59b04b",
+                "resourcePath": "sprites\\spr_bgParticle\\spr_bgParticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8bd83bea-4f60-4996-a71a-e758b57b92af",
             "Value": {
                 "id": "992cb179-3d77-4ffa-9ad0-9b7c94d97412",
