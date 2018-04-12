@@ -16,17 +16,17 @@ done = false;
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 25DCE48C
+/// @DnDDisabled : 1
 /// @DnDArgument : "xscale" ".3"
 /// @DnDArgument : "yscale" ".3"
-image_xscale = .3;
-image_yscale = .3;
+
 
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 13E05FB1
-/// @DnDArgument : "value" "room_height / 2"
+/// @DnDArgument : "value" "room_height / 2 + 1"
 /// @DnDArgument : "instvar" "1"
-y = room_height / 2;
+y = room_height / 2 + 1;
 
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1

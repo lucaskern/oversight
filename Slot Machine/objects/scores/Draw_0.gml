@@ -21,8 +21,8 @@ draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 23742848
+/// @DnDDisabled : 1
 /// @DnDArgument : "x" "room_width  / 2"
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "global.plays"
-draw_text(room_width  / 2, 30, string("") + string(global.plays));

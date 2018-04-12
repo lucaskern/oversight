@@ -3,8 +3,8 @@
 /// @DnDHash : 181C5822
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "room_height * .25"
-if(y > room_height * .25)
+/// @DnDArgument : "value" "room_height * .20"
+if(y > room_height * .20)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
@@ -27,16 +27,16 @@ else
 	/// @DnDParent : 0C730CEE
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "room_height * .25 "
-	if(y < room_height * .25 )
+	/// @DnDArgument : "value" "room_height * .20 "
+	if(y < room_height * .20 )
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1
 		/// @DnDHash : 15D9C997
 		/// @DnDParent : 7BC091E0
-		/// @DnDArgument : "value" "room_height * .25"
+		/// @DnDArgument : "value" "room_height * .20"
 		/// @DnDArgument : "instvar" "1"
-		y = room_height * .25;
+		y = room_height * .20;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else

@@ -17,9 +17,9 @@ if(stop == false )
 		/// @DnDVersion : 1
 		/// @DnDHash : 2CB6DDCF
 		/// @DnDParent : 2225A8E9
-		/// @DnDArgument : "expr" "random_range(10,15)"
+		/// @DnDArgument : "expr" "random_range(10,20)"
 		/// @DnDArgument : "var" "revolutions"
-		revolutions = random_range(10,15);
+		revolutions = random_range(10,20);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

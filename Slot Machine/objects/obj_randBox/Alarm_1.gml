@@ -23,8 +23,17 @@ else
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AF474BA
+	/// @DnDDisabled : 1
 	/// @DnDParent : 51D06892
-	/// @DnDArgument : "value" "room_height / 2"
+	/// @DnDArgument : "value" "room"
 	/// @DnDArgument : "instvar" "1"
-	y = room_height / 2;
+
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 6F4C0D8D
+	/// @DnDParent : 51D06892
+	/// @DnDArgument : "steps" "1"
+	/// @DnDArgument : "alarm" "2"
+	alarm_set(2, 1);
 }
