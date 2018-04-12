@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "29882824-74d2-4d39-860c-cc9667fe4e79",
+            "Value": {
+                "id": "e9b06399-48df-418c-8e86-9001b7ff007d",
+                "resourcePath": "views\\29882824-74d2-4d39-860c-cc9667fe4e79.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2c11dfd7-d283-47ee-aec3-da3b41cb0f58",
             "Value": {
                 "id": "60354660-523b-4a32-8fee-0163f589a30b",
@@ -220,6 +228,22 @@
                 "id": "e191945e-0717-4bd6-bb90-13e3380ea225",
                 "resourcePath": "views\\560a4d34-a03d-4078-bc74-1edebc39ba93.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "569cf9e0-9f49-4788-8bbf-ab313e6416fe",
+            "Value": {
+                "id": "c587916d-ddb2-402b-b9a4-5d6501e746ac",
+                "resourcePath": "sprites\\spr_instruct\\spr_instruct.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59adb69f-a4f6-427e-a242-f6ca969fc2c2",
+            "Value": {
+                "id": "1da84d26-2bb8-47ff-8428-a8ff40032f0e",
+                "resourcePath": "sprites\\spr_balloonRightPop\\spr_balloonRightPop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "c1de22bf-c06e-49ba-a942-cc98dd0e0abb",
+            "Value": {
+                "id": "b2cf851d-77fc-4866-bc15-152d502dec39",
+                "resourcePath": "sprites\\spr_bombLeftPop\\spr_bombLeftPop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c498b344-4f47-40d8-af5d-c34ea0590599",
             "Value": {
                 "id": "33361941-4304-48cf-a144-81d9662e2b7b",
@@ -596,6 +628,22 @@
                 "id": "a3ad203c-a1fc-43e9-bf52-117146904e67",
                 "resourcePath": "views\\e91350f3-7308-4bd4-a36b-951a5815cbaa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e930e7ae-442e-472b-96f5-ac477e9d193c",
+            "Value": {
+                "id": "b218b078-fe8a-4994-9eaa-312ec289c0c8",
+                "resourcePath": "sprites\\spr_bombRightPop\\spr_bombRightPop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef48af27-6740-41fe-8fa5-ff51083ce2bf",
+            "Value": {
+                "id": "c2feaf78-0828-4ab5-802b-d049e78eed55",
+                "resourcePath": "sprites\\spr_ballonLeftPop\\spr_ballonLeftPop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

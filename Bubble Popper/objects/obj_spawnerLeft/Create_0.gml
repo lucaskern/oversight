@@ -30,8 +30,8 @@ alarm_set(0, spawnSpeed);
 /// @DnDVersion : 1
 /// @DnDHash : 08DB7101
 /// @DnDArgument : "xpos" " random_range(padding, room_width / 2  - padding )"
-/// @DnDArgument : "ypos" "random_range(padding, room_height - padding)"
+/// @DnDArgument : "ypos" "random_range(250, room_height - padding)"
 /// @DnDArgument : "objectid" "obj_spawnLeft"
 /// @DnDArgument : "layer" ""Lyr_Balloons""
 /// @DnDSaveInfo : "objectid" "b14ed35b-dd7a-4f67-9d2d-1063edf189e4"
-instance_create_layer( random_range(padding, room_width / 2  - padding ), random_range(padding, room_height - padding), "Lyr_Balloons", obj_spawnLeft);
+instance_create_layer( random_range(padding, room_width / 2  - padding ), random_range(250, room_height - padding), "Lyr_Balloons", obj_spawnLeft);

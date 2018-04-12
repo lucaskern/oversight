@@ -43,12 +43,14 @@ audio_play_sound(snd_pop, 0, 0);
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Create
 /// @DnDVersion : 1
 /// @DnDHash : 13602083
+/// @DnDDisabled : 1
 /// @DnDArgument : "system" "global.p_bubble"
-emitter = part_emitter_create(global.p_bubble);
+
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Region
 /// @DnDVersion : 1
 /// @DnDHash : 426A8229
+/// @DnDDisabled : 1
 /// @DnDArgument : "left_relative" "1"
 /// @DnDArgument : "top_relative" "1"
 /// @DnDArgument : "right" "0"
@@ -57,16 +59,28 @@ emitter = part_emitter_create(global.p_bubble);
 /// @DnDArgument : "bottom_relative" "1"
 /// @DnDArgument : "system" "global.p_bubble"
 /// @DnDArgument : "shape" "1"
-part_emitter_region(global.p_bubble, emitter, x + 0, x + 0, y + 0, y + 0, ps_shape_ellipse, ps_distr_linear);
+
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Emit
 /// @DnDVersion : 1
 /// @DnDHash : 1C6A6A3C
+/// @DnDDisabled : 1
 /// @DnDArgument : "system" "global.p_bubble"
 /// @DnDArgument : "type" "global.p_bubbleType"
-part_emitter_burst(global.p_bubble, emitter, global.p_bubbleType, 10);
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 3FAE5362
-instance_destroy();
+/// @DnDHash : 17498DD1
+/// @DnDArgument : "imageind" " 0"
+/// @DnDArgument : "spriteind" "spr_ballonLeftPop"
+/// @DnDSaveInfo : "spriteind" "ef48af27-6740-41fe-8fa5-ff51083ce2bf"
+sprite_index = spr_ballonLeftPop;
+image_index =  0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 459CC2F5
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 1);

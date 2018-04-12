@@ -10,11 +10,11 @@ if(global.isStart == true)
 	/// @DnDHash : 3B73647A
 	/// @DnDParent : 14D5AF85
 	/// @DnDArgument : "xpos" "random_range(padding + room_width / 2 ,  room_width - padding )"
-	/// @DnDArgument : "ypos" "random_range(padding, room_height -padding)"
+	/// @DnDArgument : "ypos" "random_range(250, room_height - padding)"
 	/// @DnDArgument : "objectid" "obj_spawnRight"
 	/// @DnDArgument : "layer" ""Lyr_Balloons""
 	/// @DnDSaveInfo : "objectid" "b9a5e0c1-6633-46fb-807a-410795379270"
-	instance_create_layer(random_range(padding + room_width / 2 ,  room_width - padding ), random_range(padding, room_height -padding), "Lyr_Balloons", obj_spawnRight);
+	instance_create_layer(random_range(padding + room_width / 2 ,  room_width - padding ), random_range(250, room_height - padding), "Lyr_Balloons", obj_spawnRight);
 }
 
 /// @DnDAction : YoYo Games.Common.Variable
