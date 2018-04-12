@@ -13,6 +13,14 @@ stop = true;
 revolutions = 0;
 done = false;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 25DCE48C
+/// @DnDArgument : "xscale" ".3"
+/// @DnDArgument : "yscale" ".3"
+image_xscale = .3;
+image_yscale = .3;
+
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 13E05FB1

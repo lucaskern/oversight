@@ -10,8 +10,8 @@
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 13,
+            "enumb": 7,
+            "eventtype": 6,
             "m_owner": "8bd83bea-4f60-4996-a71a-e758b57b92af"
         }
     ],
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "daca33ae-c5d1-445b-986b-e638a87cbffb",
+    "spriteId": "51b38c2c-2011-42ce-93be-419e0a2d1bc9",
     "visible": true
 }

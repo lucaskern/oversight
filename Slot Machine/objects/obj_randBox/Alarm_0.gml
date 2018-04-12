@@ -134,5 +134,13 @@ else
 		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "var" "stop"
 		stop = true;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 70456342
+		/// @DnDParent : 31FDC059
+		/// @DnDArgument : "soundid" "snd_bing"
+		/// @DnDSaveInfo : "soundid" "5b36e742-f10d-4d44-8b0c-df6338800cf6"
+		audio_play_sound(snd_bing, 0, 0);
 	}
 }

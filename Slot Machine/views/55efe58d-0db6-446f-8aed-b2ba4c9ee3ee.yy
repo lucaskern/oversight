@@ -6,7 +6,8 @@
     "children": [
         "3d5e2b86-7d25-4393-9e8d-8791f0d71046",
         "8bd83bea-4f60-4996-a71a-e758b57b92af",
-        "9c6bf0e4-cec4-49e7-91a6-b284c8e1edf0"
+        "9c6bf0e4-cec4-49e7-91a6-b284c8e1edf0",
+        "f3960f78-d66f-496a-85e8-dcc6a5262e0a"
     ],
     "filterType": "GMObject",
     "folderName": "Text",
