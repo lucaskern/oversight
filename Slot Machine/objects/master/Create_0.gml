@@ -3,7 +3,7 @@
 /// @DnDHash : 37CBB972
 /// @DnDInput : 8
 /// @DnDArgument : "value" "100"
-/// @DnDArgument : "value_1" "2 "
+/// @DnDArgument : "value_1" "5"
 /// @DnDArgument : "value_2" "false"
 /// @DnDArgument : "value_3" "false"
 /// @DnDArgument : "var" "padding"
@@ -15,7 +15,7 @@
 /// @DnDArgument : "var_6" "slot3Val"
 /// @DnDArgument : "var_7" "slot4Val"
 global.padding = 100;
-global.plays = 2 ;
+global.plays = 5;
 global.spin = false;
 global.isStart = false;
 global.slot1Val = 0;

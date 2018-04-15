@@ -30,6 +30,14 @@ if (!audio_is_playing(l6F681BCB_0))
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "plays"
 	global.plays += -1;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B25BD0E
+	/// @DnDDisabled : 1
+	/// @DnDParent : 6F681BCB
+	/// @DnDArgument : "expr" "room_height * .25"
+	/// @DnDArgument : "var" "y"
 }
 
 /// @DnDAction : YoYo Games.Common.Variable

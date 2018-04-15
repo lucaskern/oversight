@@ -3,8 +3,8 @@
 /// @DnDHash : 69668601
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "room_height * .25"
-if(y >= room_height * .25)
+/// @DnDArgument : "value" "room_height * .3"
+if(y >= room_height * .3)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
@@ -22,4 +22,12 @@ if(y >= room_height * .25)
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "moved"
 	moved = true;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2E8C4CDB
+	/// @DnDParent : 69668601
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "draggingB"
+	draggingB = false;
 }

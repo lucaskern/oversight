@@ -1,24 +1,27 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2DB12E5C
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "expr_1" "true"
 /// @DnDArgument : "expr_3" "false"
+/// @DnDArgument : "expr_4" "60"
 /// @DnDArgument : "var" "slotNum "
 /// @DnDArgument : "var_1" "stop"
 /// @DnDArgument : "var_2" "revolutions"
 /// @DnDArgument : "var_3" "done"
+/// @DnDArgument : "var_4" "easeSpeed"
 slotNum  = 0;
 stop = true;
 revolutions = 0;
 done = false;
+easeSpeed = 60;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 25DCE48C
 /// @DnDDisabled : 1
-/// @DnDArgument : "xscale" ".3"
-/// @DnDArgument : "yscale" ".3"
+/// @DnDArgument : "xscale" ".8"
+/// @DnDArgument : "yscale" ".8"
 
 
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var

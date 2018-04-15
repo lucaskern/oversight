@@ -3,8 +3,8 @@
 /// @DnDHash : 61482642
 /// @DnDArgument : "var" "mouse_y"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "room_height * .75"
-if(mouse_y < room_height * .75)
+/// @DnDArgument : "value" "room_height * .7"
+if(mouse_y < room_height * .7)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -12,8 +12,8 @@ if(mouse_y < room_height * .75)
 	/// @DnDParent : 61482642
 	/// @DnDArgument : "var" "mouse_y"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "room_height * .25 "
-	if(mouse_y > room_height * .25 )
+	/// @DnDArgument : "value" "room_height * .3"
+	if(mouse_y > room_height * .3)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1
