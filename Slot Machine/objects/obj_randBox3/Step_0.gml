@@ -17,9 +17,9 @@ if(stop == false )
 		/// @DnDVersion : 1
 		/// @DnDHash : 2CB6DDCF
 		/// @DnDParent : 2225A8E9
-		/// @DnDArgument : "expr" "random_range(10,15)"
+		/// @DnDArgument : "expr" "14"
 		/// @DnDArgument : "var" "revolutions"
-		revolutions = random_range(10,15);
+		revolutions = 14;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
@@ -39,14 +39,11 @@ if(stop == false )
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 1E0F865E
+		/// @DnDDisabled : 1
 		/// @DnDApplyTo : 98eed66b-3f56-4272-90a5-0c05ecafb266
 		/// @DnDParent : 2225A8E9
 		/// @DnDArgument : "steps" "240"
 		/// @DnDArgument : "alarm" "1"
-		with(master) {
-		alarm_set(1, 240);
-		
-		}
 	}
 }
 

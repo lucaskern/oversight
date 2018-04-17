@@ -1,3 +1,15 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 476114A9
+randomize();
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 028EDD33
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "3"
+alarm_set(3, 1);
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 37CBB972
@@ -6,6 +18,10 @@
 /// @DnDArgument : "value_1" "5"
 /// @DnDArgument : "value_2" "false"
 /// @DnDArgument : "value_3" "false"
+/// @DnDArgument : "value_4" "1"
+/// @DnDArgument : "value_5" "1"
+/// @DnDArgument : "value_6" "1"
+/// @DnDArgument : "value_7" "1"
 /// @DnDArgument : "var" "padding"
 /// @DnDArgument : "var_1" "plays"
 /// @DnDArgument : "var_2" "spin"
@@ -18,10 +34,16 @@ global.padding = 100;
 global.plays = 5;
 global.spin = false;
 global.isStart = false;
-global.slot1Val = 0;
-global.slot2Val = 0;
-global.slot3Val = 0;
-global.slot4Val = 0;
+global.slot1Val = 1;
+global.slot2Val = 1;
+global.slot3Val = 1;
+global.slot4Val = 1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3440A936
+/// @DnDArgument : "var" "roll"
+global.roll = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

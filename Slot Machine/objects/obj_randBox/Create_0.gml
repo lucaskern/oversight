@@ -36,8 +36,8 @@ y = room_height / 2 + 1;
 /// @DnDHash : 48ECD15F
 /// @DnDArgument : "var" "rand_generated"
 /// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "option" "1,2,3"
-var rand_generated = choose(1,2,3);
+/// @DnDArgument : "option" "1,2,3,4"
+var rand_generated = choose(1,2,3,4);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -108,6 +108,31 @@ else
 			/// @DnDSaveInfo : "spriteind" "b9318998-aa10-45f1-a675-ddcba923a941"
 			sprite_index = spr_head;
 			image_index = 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 33328F1C
+		/// @DnDParent : 7A1C54E5
+		else
+		{
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 67CC3AD2
+			/// @DnDParent : 33328F1C
+			/// @DnDArgument : "var" "slotNum"
+			/// @DnDArgument : "value" "4"
+			if(slotNum == 4)
+			{
+				/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 35FC06FF
+				/// @DnDParent : 67CC3AD2
+				/// @DnDArgument : "spriteind" "spr_coin"
+				/// @DnDSaveInfo : "spriteind" "113a305a-e887-4daf-a9d1-17948813c665"
+				sprite_index = spr_coin;
+				image_index = 0;
+			}
 		}
 	}
 }

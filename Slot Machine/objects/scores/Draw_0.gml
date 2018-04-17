@@ -22,7 +22,7 @@ draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 /// @DnDVersion : 1
 /// @DnDHash : 23742848
 /// @DnDDisabled : 1
-/// @DnDArgument : "x" "room_width  / 2"
+/// @DnDArgument : "x" "40"
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "var" "global.plays"
+/// @DnDArgument : "var" "global.roll"
