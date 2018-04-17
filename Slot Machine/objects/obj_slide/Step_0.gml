@@ -36,9 +36,9 @@ if(y > room_height * .3)
 			/// @DnDVersion : 1
 			/// @DnDHash : 47116823
 			/// @DnDParent : 7881EBF5
-			/// @DnDArgument : "soundid" "snd_bing"
-			/// @DnDSaveInfo : "soundid" "5b36e742-f10d-4d44-8b0c-df6338800cf6"
-			audio_play_sound(snd_bing, 0, 0);
+			/// @DnDArgument : "soundid" "snd_leverStop"
+			/// @DnDSaveInfo : "soundid" "e30d380c-220b-4957-b366-331a12272691"
+			audio_play_sound(snd_leverStop, 0, 0);
 		}
 	}
 }

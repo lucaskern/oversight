@@ -21,11 +21,20 @@ if(global.slot2Val && global.slot3Val && global.slot4Val == global.slot1Val)
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D6F092A
+	/// @DnDDisabled : 1
 	/// @DnDParent : 618763C5
 	/// @DnDArgument : "x" "220"
 	/// @DnDArgument : "y" "220"
 	/// @DnDArgument : "caption" ""Win""
-	draw_text(220, 220, string("Win") + "");
+
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0FA23F81
+	/// @DnDParent : 618763C5
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "global.isWin"
+	global.isWin = true;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -33,19 +42,18 @@ if(global.slot2Val && global.slot3Val && global.slot4Val == global.slot1Val)
 /// @DnDHash : 2DD0C323
 else
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
-	/// @DnDHash : 2765528A
+	/// @DnDHash : 388F316F
 	/// @DnDParent : 2DD0C323
-	/// @DnDArgument : "x" "220"
-	/// @DnDArgument : "y" "220"
-	/// @DnDArgument : "caption" ""Lose""
-	draw_text(220, 220, string("Lose") + "");
+	/// @DnDArgument : "soundid" "snd_lose"
+	/// @DnDSaveInfo : "soundid" "1a5722be-34b0-48a2-a2d6-55259a8a37f3"
+	audio_play_sound(snd_lose, 0, 0);
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 0B154CCA
+/// @DnDDisabled : 1
 /// @DnDArgument : "steps" "1"
 /// @DnDArgument : "alarm" "2"
-alarm_set(2, 1);

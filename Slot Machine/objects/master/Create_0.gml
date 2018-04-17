@@ -13,15 +13,16 @@ alarm_set(3, 1);
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 37CBB972
-/// @DnDInput : 8
+/// @DnDInput : 9
 /// @DnDArgument : "value" "100"
 /// @DnDArgument : "value_1" "5"
 /// @DnDArgument : "value_2" "false"
 /// @DnDArgument : "value_3" "false"
 /// @DnDArgument : "value_4" "1"
-/// @DnDArgument : "value_5" "1"
-/// @DnDArgument : "value_6" "1"
-/// @DnDArgument : "value_7" "1"
+/// @DnDArgument : "value_5" "2"
+/// @DnDArgument : "value_6" "3"
+/// @DnDArgument : "value_7" "4"
+/// @DnDArgument : "value_8" "false"
 /// @DnDArgument : "var" "padding"
 /// @DnDArgument : "var_1" "plays"
 /// @DnDArgument : "var_2" "spin"
@@ -30,14 +31,16 @@ alarm_set(3, 1);
 /// @DnDArgument : "var_5" "slot2Val"
 /// @DnDArgument : "var_6" "slot3Val"
 /// @DnDArgument : "var_7" "slot4Val"
+/// @DnDArgument : "var_8" "isWin"
 global.padding = 100;
 global.plays = 5;
 global.spin = false;
 global.isStart = false;
 global.slot1Val = 1;
-global.slot2Val = 1;
-global.slot3Val = 1;
-global.slot4Val = 1;
+global.slot2Val = 2;
+global.slot3Val = 3;
+global.slot4Val = 4;
+global.isWin = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
