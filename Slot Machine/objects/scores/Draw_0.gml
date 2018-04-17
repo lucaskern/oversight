@@ -21,8 +21,8 @@ draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 23742848
+/// @DnDDisabled : 1
 /// @DnDArgument : "x" "40"
 /// @DnDArgument : "y" "30"
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "global.isWin"
-draw_text(40, 30, string("") + string(global.isWin));

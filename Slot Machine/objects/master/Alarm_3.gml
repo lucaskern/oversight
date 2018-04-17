@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5DDFD350
 /// @DnDArgument : "var" "roll"
-/// @DnDArgument : "option" "0,1,2,3"
-roll = choose(0,1,2,3);
+/// @DnDArgument : "option" "0,1,2,3,4"
+roll = choose(0,1,2,3,4);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
