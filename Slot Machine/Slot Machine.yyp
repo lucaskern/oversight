@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0f515e9a-5bd8-416f-b508-dfadb2468a18",
+            "Value": {
+                "id": "b2d695f3-069e-41ab-aab5-42358e26bba9",
+                "resourcePath": "sprites\\spr_winPop\\spr_winPop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "113a305a-e887-4daf-a9d1-17948813c665",
             "Value": {
                 "id": "82b608a8-a334-4097-8afc-bfd8f5d7355c",
@@ -287,6 +295,22 @@
             }
         },
         {
+            "Key": "53635be6-488a-447b-be41-ec915a3bf022",
+            "Value": {
+                "id": "80830515-2b19-463a-8d1c-f3db3c04a683",
+                "resourcePath": "timelines\\time_lose\\time_lose.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "5399a983-8523-4c03-8738-30935509ea67",
+            "Value": {
+                "id": "e9289841-3125-46c4-9bcc-057ece4f3277",
+                "resourcePath": "objects\\obj_winPop\\obj_winPop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5411864d-cda7-4f09-9d3a-0354e49d4c12",
             "Value": {
                 "id": "3c63c0d0-2fa0-4224-8f60-7354966ecf53",
@@ -300,6 +324,14 @@
                 "id": "e8eb6474-3fda-4253-8942-3836c897afb7",
                 "resourcePath": "views\\55efe58d-0db6-446f-8aed-b2ba4c9ee3ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "56ddb2c4-b382-4bc1-990b-72a5f2b4a2ff",
+            "Value": {
+                "id": "7a52ce73-01d9-422b-acf7-2a932a556197",
+                "resourcePath": "sprites\\spr_cover\\spr_cover.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +468,14 @@
                 "id": "234cfe89-1c3e-47f2-9251-e48acda056c1",
                 "resourcePath": "sprites\\spr_confettiBlast1\\spr_confettiBlast1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "804d5b6b-d15e-4102-9190-82000c11df1b",
+            "Value": {
+                "id": "8d537213-51ac-46c4-9bb0-82aaf1982c06",
+                "resourcePath": "objects\\obj_blackAlpha\\obj_blackAlpha.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -770,7 +810,7 @@
             "Key": "d14cf50e-e3a6-40c0-a859-7804df3e8c85",
             "Value": {
                 "id": "033b357c-ec18-4bb9-b33e-92f1c62b91d4",
-                "resourcePath": "timelines\\time_lose\\time_lose.yy",
+                "resourcePath": "timelines\\time_lose1\\time_lose1.yy",
                 "resourceType": "GMTimeline"
             }
         },

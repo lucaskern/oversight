@@ -10,7 +10,9 @@
         "30bbcf4a-449d-4699-8810-251ef07d03ef",
         "7dfbeb0c-a0ee-4d11-b76d-433f7bec5005",
         "fb3eeb11-10a5-46c6-b3c1-7bad8af2f8bb",
-        "8405e6b6-18af-4753-9f05-e6ef5ecc4681"
+        "8405e6b6-18af-4753-9f05-e6ef5ecc4681",
+        "0f515e9a-5bd8-416f-b508-dfadb2468a18",
+        "56ddb2c4-b382-4bc1-990b-72a5f2b4a2ff"
     ],
     "filterType": "GMSprite",
     "folderName": "Win\/Lose",
