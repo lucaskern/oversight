@@ -20,9 +20,9 @@ if(global.isStart == true)
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 49D069C1
-/// @DnDArgument : "expr" "45 / global.gameRound"
+/// @DnDArgument : "expr" "60 / global.gameRound"
 /// @DnDArgument : "var" "spawnSpeed"
-spawnSpeed = 45 / global.gameRound;
+spawnSpeed = 60 / global.gameRound;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

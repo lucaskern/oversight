@@ -53,10 +53,10 @@ if(l4C07F726_0)
 	/// @DnDHash : 754911CF
 	/// @DnDApplyTo : 6823cf71-920d-483f-b843-aa9b8b29af80
 	/// @DnDParent : 4C07F726
-	/// @DnDArgument : "value" "+.02"
+	/// @DnDArgument : "value" "+.04"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "instvar" "13"
 	with(obj_betterLuck) {
-	image_alpha += +.02;
+	image_alpha += +.04;
 	}
 }

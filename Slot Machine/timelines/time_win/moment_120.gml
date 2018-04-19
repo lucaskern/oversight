@@ -13,10 +13,10 @@ if(l64287A3A_0)
 	/// @DnDHash : 3B20EF41
 	/// @DnDApplyTo : e2c5a349-c334-4cd4-a6a4-5f2214e1a3c0
 	/// @DnDParent : 64287A3A
-	/// @DnDArgument : "value" "-80"
+	/// @DnDArgument : "value" "-100"
 	/// @DnDArgument : "value_relative" "1"
 	with(obj_congrats) {
-	x += -80;
+	x += -100;
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
@@ -24,10 +24,10 @@ if(l64287A3A_0)
 	/// @DnDHash : 1C3DE8F8
 	/// @DnDApplyTo : c920dd4c-1b72-44dc-b083-9e8cb0b5f382
 	/// @DnDParent : 64287A3A
-	/// @DnDArgument : "value" "60"
+	/// @DnDArgument : "value" "100"
 	/// @DnDArgument : "value_relative" "1"
 	with(obj_youWIn) {
-	x += 60;
+	x += 100;
 	}
 
 	/// @DnDAction : YoYo Games.Timelines.Position_Timeline

@@ -22,11 +22,11 @@ draw_set_valign(fa_top);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 162C9688
-/// @DnDArgument : "x" "room_width / 2 - 10"
-/// @DnDArgument : "y" "20 "
+/// @DnDArgument : "x" "room_width / 2 - 8"
+/// @DnDArgument : "y" "15"
 /// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "countdownTime"
-draw_text(room_width / 2 - 10, 20 , string("") + string(countdownTime));
+draw_text(room_width / 2 - 8, 15, string("") + string(countdownTime));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1

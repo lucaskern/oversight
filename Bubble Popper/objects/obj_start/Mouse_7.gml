@@ -22,9 +22,17 @@ if(currRoom == room_game)
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 17801763
+	/// @DnDDisabled : 1
 	/// @DnDParent : 7F859EA0
 	/// @DnDArgument : "alarm" "2"
-	alarm_set(2, 30);
+
+
+	/// @DnDAction : YoYo Games.Timelines.Set_Timeline_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 1B047A04
+	/// @DnDParent : 7F859EA0
+	timeline_running = true;
+	timeline_position = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.Else

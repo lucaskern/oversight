@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 5D39AEE3
+/// @DnDDisabled : 1
+/// @DnDApplyTo : 1a11eb30-8e7d-4c06-9264-64dd9d9b05d6
+/// @DnDArgument : "steps" "1"
+
+
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 5A2CC417
