@@ -14,9 +14,9 @@ global.scoreFile = buffer_load("scores.ini");
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 348E3F1A
-/// @DnDArgument : "value" "5"
+/// @DnDArgument : "value" "10"
 /// @DnDArgument : "var" "roundLength"
-global.roundLength = 5;
+global.roundLength = 10;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

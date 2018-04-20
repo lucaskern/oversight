@@ -24,3 +24,10 @@ y = room_height / 2;
 with(obj_startAnim) {
 sprite_index = spr_3;
 }
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 46098EA0
+/// @DnDArgument : "soundid" "snd_321"
+/// @DnDSaveInfo : "soundid" "79c110cd-363c-451b-8891-f25b49c09041"
+audio_play_sound(snd_321, 0, 0);
