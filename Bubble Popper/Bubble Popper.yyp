@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "013ff102-e17f-4c08-a93e-03548d67c61e",
+            "Value": {
+                "id": "80a0d1c4-772f-4915-87cc-112806be2d3f",
+                "resourcePath": "rooms\\room_reveal1\\room_reveal1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1009c382-00dd-48e3-be9d-a81ee88a2117",
             "Value": {
                 "id": "02cba5f5-0caa-4769-bf24-05943374880c",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "7ca5c816-6b85-4cb4-b013-82c5a9214089",
+            "Value": {
+                "id": "efdfefce-eb5e-4684-a20c-1f269c03c041",
+                "resourcePath": "rooms\\room_reveal4\\room_reveal4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7cba2935-8cb2-4ca1-bf02-3910d754848e",
             "Value": {
                 "id": "9d60f6fe-73c1-424f-bf1b-3d44375d9ace",
@@ -431,11 +447,27 @@
             }
         },
         {
+            "Key": "8a9e5e22-aad4-4eb9-8ad7-fd947dad131f",
+            "Value": {
+                "id": "b216f1b3-a831-4b0b-9711-2f59a2586ded",
+                "resourcePath": "sprites\\spr_reveal2\\spr_reveal2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8bd83bea-4f60-4996-a71a-e758b57b92af",
             "Value": {
                 "id": "992cb179-3d77-4ffa-9ad0-9b7c94d97412",
                 "resourcePath": "objects\\obj_start\\obj_start.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e9e9cb8-9e94-4694-baf2-c03e70c85721",
+            "Value": {
+                "id": "c30b18f8-1498-4bc2-ab8d-965b7c2ebc4e",
+                "resourcePath": "sprites\\spr_reveal3\\spr_reveal3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,6 +484,14 @@
                 "id": "2a47ccda-8837-4a32-ba38-b76ee04b6a08",
                 "resourcePath": "sounds\\snd_continue\\snd_continue.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "98d0d575-fcaf-4205-9a6e-65b19a7931ea",
+            "Value": {
+                "id": "e4995913-6198-4b26-9812-6e4798fd081f",
+                "resourcePath": "sprites\\spr_reveal1\\spr_reveal1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -516,6 +556,14 @@
                 "id": "e5635be1-4bfd-4f23-a5b0-9012c2e092b1",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a96347a8-4420-4983-948c-33d33f775c6c",
+            "Value": {
+                "id": "da1b3751-562b-4115-a052-c443b642778d",
+                "resourcePath": "views\\a96347a8-4420-4983-948c-33d33f775c6c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -687,6 +735,14 @@
             }
         },
         {
+            "Key": "e71126b3-ea08-473c-bfb9-c8091a4b03ac",
+            "Value": {
+                "id": "74b3906b-3002-4b31-834b-2db214c85740",
+                "resourcePath": "sprites\\spr_reveal4\\spr_reveal4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7fb6784-7ddd-4f28-8132-f86163b9c1f4",
             "Value": {
                 "id": "bc4f1536-8287-4f3e-824c-69e55d623023",
@@ -719,6 +775,14 @@
             }
         },
         {
+            "Key": "eb5850c8-6b77-4528-b864-1c7e0407da13",
+            "Value": {
+                "id": "49bd3d7f-882f-47bb-98e2-ab5be74b23eb",
+                "resourcePath": "rooms\\room_reveal3\\room_reveal3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ef48af27-6740-41fe-8fa5-ff51083ce2bf",
             "Value": {
                 "id": "c2feaf78-0828-4ab5-802b-d049e78eed55",
@@ -748,6 +812,14 @@
                 "id": "d7afa350-1c1d-48da-a958-ded0a65f98b6",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fbacf809-da14-4ce7-a914-9ce135bd7a0a",
+            "Value": {
+                "id": "db450dd6-3ee2-4c1e-940d-84cae3acc96b",
+                "resourcePath": "rooms\\room_reveal2\\room_reveal2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
