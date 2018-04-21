@@ -11,8 +11,8 @@ if(draggable == true)
 	/// @DnDParent : 3FDF113C
 	/// @DnDArgument : "var" "mouse_y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "room_height * .7"
-	if(mouse_y < room_height * .7)
+	/// @DnDArgument : "value" "room_height * .8"
+	if(mouse_y < room_height * .8)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

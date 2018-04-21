@@ -93,9 +93,9 @@ if(global.isStart)
 				/// @DnDVersion : 1
 				/// @DnDHash : 5DFA3A75
 				/// @DnDParent : 33500608
-				/// @DnDArgument : "room" "room_reveal"
-				/// @DnDSaveInfo : "room" "99f1fdfb-6a4e-4f3c-8de9-02cf0ab6d06b"
-				room_goto(room_reveal);
+				/// @DnDArgument : "room" "room_reveal1"
+				/// @DnDSaveInfo : "room" "36e27b8b-b003-47c5-b9d5-fa9035f14c61"
+				room_goto(room_reveal1);
 			}
 		}
 	}

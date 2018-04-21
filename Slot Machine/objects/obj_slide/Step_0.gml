@@ -78,16 +78,16 @@ else
 		/// @DnDParent : 4E20AB73
 		/// @DnDArgument : "var" "y"
 		/// @DnDArgument : "op" "2"
-		/// @DnDArgument : "value" "room_height * .75"
-		if(y > room_height * .75)
+		/// @DnDArgument : "value" "room_height * .8"
+		if(y > room_height * .8)
 		{
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 341FDCE8
 			/// @DnDParent : 0045E87B
-			/// @DnDArgument : "value" "room_height * .75"
+			/// @DnDArgument : "value" "room_height * .8"
 			/// @DnDArgument : "instvar" "1"
-			y = room_height * .75;
+			y = room_height * .8;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
