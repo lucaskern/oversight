@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "007ddca1-d54e-48a6-93d3-0ba58067a7fb",
+            "Value": {
+                "id": "072790e2-2b01-4005-b325-432c3439e8a5",
+                "resourcePath": "objects\\obj_revealControl\\obj_revealControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "013ff102-e17f-4c08-a93e-03548d67c61e",
             "Value": {
                 "id": "80a0d1c4-772f-4915-87cc-112806be2d3f",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "32d99f2e-558b-4528-beb2-056b9797c581",
+            "Value": {
+                "id": "764904ac-a85e-4d13-b1f3-e733fa375f12",
+                "resourcePath": "objects\\obj_reveal3\\obj_reveal3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "338bb814-bed4-4e6d-9501-0bbc9bd3f9cf",
             "Value": {
                 "id": "e613e7a2-d6eb-4975-9661-b373713971dc",
@@ -220,6 +236,14 @@
                 "id": "0d034e92-7b52-41a8-a1bc-51dec6f5a616",
                 "resourcePath": "views\\45d91955-b88a-4891-85f4-755c486db70c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47823a90-dd67-4636-8fa0-22e661e12f58",
+            "Value": {
+                "id": "c8d35a74-c18e-4b1e-b087-6556e0b2c1ef",
+                "resourcePath": "objects\\obj_reveal1\\obj_reveal1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -487,6 +511,14 @@
             }
         },
         {
+            "Key": "98c8bd37-ef75-4248-bbcd-0784e055ca5f",
+            "Value": {
+                "id": "47e2dac3-993c-479c-89df-aa439dd05860",
+                "resourcePath": "objects\\obj_reveal2\\obj_reveal2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98d0d575-fcaf-4205-9a6e-65b19a7931ea",
             "Value": {
                 "id": "e4995913-6198-4b26-9812-6e4798fd081f",
@@ -644,6 +676,14 @@
                 "id": "b2cf851d-77fc-4866-bc15-152d502dec39",
                 "resourcePath": "sprites\\spr_bombLeftPop\\spr_bombLeftPop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1e21826-2f55-4f9f-b2aa-d644655e4625",
+            "Value": {
+                "id": "9c458e9d-59da-47c4-a783-66eba9f94a9f",
+                "resourcePath": "objects\\obj_reveal4\\obj_reveal4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
