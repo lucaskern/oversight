@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 093F3223
-/// @DnDArgument : "expr" "60 / global.gameRound"
+/// @DnDArgument : "expr" "50 / global.gameRound"
 /// @DnDArgument : "var" "spawnSpeed"
-spawnSpeed = 60 / global.gameRound;
+spawnSpeed = 50 / global.gameRound;
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1

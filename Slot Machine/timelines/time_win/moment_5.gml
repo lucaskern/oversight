@@ -13,8 +13,8 @@ y = 0;
 /// @DnDApplyTo : 804d5b6b-d15e-4102-9190-82000c11df1b
 /// @DnDArgument : "var" "image_alpha"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" ".3"
-with(obj_blackAlpha) var l1ABA87AC_0 = image_alpha < .3;
+/// @DnDArgument : "value" ".45"
+with(obj_blackAlpha) var l1ABA87AC_0 = image_alpha < .45;
 if(l1ABA87AC_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var

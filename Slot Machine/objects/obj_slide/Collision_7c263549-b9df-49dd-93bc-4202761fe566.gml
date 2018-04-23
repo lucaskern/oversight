@@ -26,6 +26,12 @@ alarm_set(3, 1);
 
 }
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 13024198
+/// @DnDArgument : "code" "event_perform(ev_left_release,1)"
+event_perform(ev_left_release,1)
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 574DC483
