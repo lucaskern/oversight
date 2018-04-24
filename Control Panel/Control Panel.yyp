@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2e8d532f-ed73-42c5-87a3-6cdf02504c68",
+            "Value": {
+                "id": "39e25542-9709-4dde-a890-394952e4b7ce",
+                "resourcePath": "fonts\\Arcade_N64\\Arcade_N64.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2f7d46dc-eb04-4bd7-9171-5b9d3bfe01b2",
             "Value": {
                 "id": "e1d2262d-0675-4f63-860e-02b8587c9afa",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "6dce4643-a13b-46f7-bdd9-49fb7f3d5539",
+            "Value": {
+                "id": "535ec6ab-e207-4585-8c5d-d2bc14745aa9",
+                "resourcePath": "objects\\Spawner\\Spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7159689a-720c-46b4-a284-27bf5bc963a0",
             "Value": {
                 "id": "1c9e22e3-578f-4be7-84c3-c2a9ee61f2c8",
@@ -507,6 +523,14 @@
             "Value": {
                 "id": "fcbb2923-4c5b-42a0-a6a5-080d7e43f623",
                 "resourcePath": "sprites\\rev5temp\\rev5temp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7546d08c-c0dc-4187-bade-9bfed1d856f5",
+            "Value": {
+                "id": "3e7e0db0-0be1-44ae-8543-a8274897117c",
+                "resourcePath": "sprites\\blue_rect_111\\blue_rect_111.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -804,6 +828,22 @@
                 "id": "f86543d5-824b-464d-b19a-a5e582010f0f",
                 "resourcePath": "sprites\\instructions\\instructions.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3d9499a-e604-47da-926d-e619ecc3776e",
+            "Value": {
+                "id": "4101bc79-1160-440a-a204-6166da2f0b65",
+                "resourcePath": "fonts\\Arcade_R72\\Arcade_R72.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c95ba876-b553-4915-8bd2-ccce1462daed",
+            "Value": {
+                "id": "2a40b81f-3097-4638-95fb-ab87b691eee7",
+                "resourcePath": "timelines\\time_spawnInitial\\time_spawnInitial.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
