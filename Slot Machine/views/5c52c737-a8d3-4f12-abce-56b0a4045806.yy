@@ -8,7 +8,8 @@
         "646174f8-13de-4da5-ba8b-62222df72e5e",
         "1c32e038-8ea0-4472-a41d-30e0e3b8edc8",
         "f8df7f95-9cc1-4d7f-b6d6-33113ee17bfe",
-        "af812d75-733c-4e68-852e-6ecdf91a6c23"
+        "af812d75-733c-4e68-852e-6ecdf91a6c23",
+        "cfdfeec3-87f9-48a6-8da9-74758c67b2b8"
     ],
     "filterType": "GMSprite",
     "folderName": "Reveals",

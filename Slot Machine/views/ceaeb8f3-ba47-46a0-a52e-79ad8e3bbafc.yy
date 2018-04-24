@@ -9,7 +9,8 @@
         "4b8c6105-e7d3-430a-929c-a37c87a010ce",
         "ed75307a-1e66-4e84-9571-35db13501149",
         "8cb74d44-43c4-4e9d-b853-987af890c631",
-        "187de773-3d27-43a6-b8ff-8024e3d49b1a"
+        "187de773-3d27-43a6-b8ff-8024e3d49b1a",
+        "ac4089ab-79b1-4851-bfe9-63f8be3e752b"
     ],
     "filterType": "GMObject",
     "folderName": "Reveal",
