@@ -13,13 +13,13 @@ randomPosY = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6327F980
-/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "expr" "0.75"
 /// @DnDArgument : "var" "image_xscale"
-image_xscale = 2;
+image_xscale = 0.75;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 73D6A5EF
-/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "expr" "0.75"
 /// @DnDArgument : "var" "image_yscale"
-image_yscale = 2;
+image_yscale = 0.75;
