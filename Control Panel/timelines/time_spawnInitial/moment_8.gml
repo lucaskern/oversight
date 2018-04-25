@@ -48,10 +48,10 @@ else
 		/// @DnDHash : 463AD61D
 		/// @DnDParent : 6AA0F452
 		/// @DnDArgument : "xpos" "global.xC3"
-		/// @DnDArgument : "ypos" "global.yC3"
+		/// @DnDArgument : "ypos" "global.yC3 + global.holdOffset"
 		/// @DnDArgument : "objectid" "holdCircle"
 		/// @DnDSaveInfo : "objectid" "54b8ad47-6e0f-4246-bf1d-a0cfec156c57"
-		instance_create_layer(global.xC3, global.yC3, "Instances", holdCircle);
+		instance_create_layer(global.xC3, global.yC3 + global.holdOffset, "Instances", holdCircle);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -73,10 +73,10 @@ else
 			/// @DnDHash : 6C3F1137
 			/// @DnDParent : 2D388EA1
 			/// @DnDArgument : "xpos" "global.xC3"
-			/// @DnDArgument : "ypos" "global.yC3"
+			/// @DnDArgument : "ypos" "global.yC3 + global.scaleOffset"
 			/// @DnDArgument : "objectid" "scaleSquare"
 			/// @DnDSaveInfo : "objectid" "d41e3828-138c-4bd5-b640-4cdea43060b0"
-			instance_create_layer(global.xC3, global.yC3, "Instances", scaleSquare);
+			instance_create_layer(global.xC3, global.yC3 + global.scaleOffset, "Instances", scaleSquare);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -98,10 +98,10 @@ else
 				/// @DnDHash : 3E6AAE66
 				/// @DnDParent : 00B94940
 				/// @DnDArgument : "xpos" "global.xC3"
-				/// @DnDArgument : "ypos" "global.yC3"
+				/// @DnDArgument : "ypos" "global.yC3 + global.turnOffset"
 				/// @DnDArgument : "objectid" "turnDial"
 				/// @DnDSaveInfo : "objectid" "76f731f3-7acd-4365-97c6-5b5e515b8e74"
-				instance_create_layer(global.xC3, global.yC3, "Instances", turnDial);
+				instance_create_layer(global.xC3, global.yC3 + global.turnOffset, "Instances", turnDial);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.Else
@@ -122,11 +122,11 @@ else
 					/// @DnDVersion : 1
 					/// @DnDHash : 3AFC3B43
 					/// @DnDParent : 0090D3B3
-					/// @DnDArgument : "xpos" "global.xC3"
+					/// @DnDArgument : "xpos" "global.xC3 - global.slideOffset"
 					/// @DnDArgument : "ypos" "global.yC3"
 					/// @DnDArgument : "objectid" "sliderButton"
 					/// @DnDSaveInfo : "objectid" "41eb491e-95c7-4a1a-8440-b19693183de2"
-					instance_create_layer(global.xC3, global.yC3, "Instances", sliderButton);
+					instance_create_layer(global.xC3 - global.slideOffset, global.yC3, "Instances", sliderButton);
 				}
 			}
 		}

@@ -16,8 +16,8 @@ draw_set_font(Arcade_N64);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 0B94AD78
-/// @DnDArgument : "x" "50"
-/// @DnDArgument : "y" "50"
-/// @DnDArgument : "caption" ""
+/// @DnDArgument : "x" "560"
+/// @DnDArgument : "y" "20"
+/// @DnDArgument : "caption" ""Points: ""
 /// @DnDArgument : "var" "global.points"
-draw_text(50, 50,  + string(global.points));
+draw_text(560, 20, string("Points: ") + string(global.points));

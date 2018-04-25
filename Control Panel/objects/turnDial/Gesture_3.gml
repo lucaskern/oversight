@@ -1,17 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 169D3B2B
-/// @DnDArgument : "expr" "-15"
+/// @DnDArgument : "expr" "-18"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "rotateAmount"
-rotateAmount += -15;
+rotateAmount += -18;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 44675653
-/// @DnDArgument : "angle" "-15"
+/// @DnDArgument : "angle" "-18"
 /// @DnDArgument : "angle_relative" "1"
-image_angle += -15;
+image_angle += -18;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

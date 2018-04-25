@@ -63,3 +63,27 @@ if(x >= xstart + 250)
 	/// @DnDArgument : "objectid" "sliderBar"
 	/// @DnDSaveInfo : "objectid" "a65d5709-8d33-421b-8886-f490b9335d69"
 }
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 7D43DFB4
+else
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 659DAC1B
+	/// @DnDParent : 7D43DFB4
+	/// @DnDArgument : "var" "x"
+	/// @DnDArgument : "op" "3"
+	/// @DnDArgument : "value" "xstart "
+	if(x <= xstart )
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 34D4377C
+		/// @DnDParent : 659DAC1B
+		/// @DnDArgument : "expr" "xstart"
+		/// @DnDArgument : "var" "x"
+		x = xstart;
+	}
+}
