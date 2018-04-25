@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1c9a5d55-16a8-4d54-8429-5b5f3d142877",
+            "Value": {
+                "id": "9867e52f-a138-4abc-a328-1a1f2e4fc770",
+                "resourcePath": "rooms\\room_reveal6\\room_reveal6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2197fbd1-67f3-446d-8881-2660c52ce6ca",
             "Value": {
                 "id": "b3b2421c-dba9-4546-ab3b-b86c686b451c",
@@ -946,7 +954,7 @@
             "Key": "cfdfeec3-87f9-48a6-8da9-74758c67b2b8",
             "Value": {
                 "id": "550100b3-f93f-4e4d-8885-c678b73246b5",
-                "resourcePath": "sprites\\sprite39\\sprite39.yy",
+                "resourcePath": "sprites\\spr_reveal6\\spr_reveal6.yy",
                 "resourceType": "GMSprite"
             }
         },
