@@ -4,6 +4,13 @@
 /// @DnDArgument : "var" "currRoom"
 currRoom = room;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 47CAA9DB
+/// @DnDArgument : "soundid" "snd_tap"
+/// @DnDSaveInfo : "soundid" "3255c2a3-9249-4615-9f8d-3ee4f7d50f55"
+audio_play_sound(snd_tap, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7F859EA0

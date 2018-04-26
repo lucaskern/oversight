@@ -4,7 +4,7 @@
 /// @DnDInput : 5
 /// @DnDArgument : "expr_1" "true"
 /// @DnDArgument : "expr_3" "false"
-/// @DnDArgument : "expr_4" "60"
+/// @DnDArgument : "expr_4" "20"
 /// @DnDArgument : "var" "slotNum "
 /// @DnDArgument : "var_1" "stop"
 /// @DnDArgument : "var_2" "revolutions"
@@ -14,7 +14,7 @@ slotNum  = 0;
 stop = true;
 revolutions = 0;
 done = false;
-easeSpeed = 60;
+easeSpeed = 20;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1

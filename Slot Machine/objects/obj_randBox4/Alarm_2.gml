@@ -63,10 +63,11 @@ else
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5F90452C
+		/// @DnDDisabled : 1
 		/// @DnDParent : 7778E7C1
 		/// @DnDArgument : "expr" "60"
 		/// @DnDArgument : "var" "easeSpeed"
-		easeSpeed = 60;
+	
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1

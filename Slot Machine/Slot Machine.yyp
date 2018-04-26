@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3255c2a3-9249-4615-9f8d-3ee4f7d50f55",
+            "Value": {
+                "id": "c029b288-7fab-43a7-bf2d-2a6510e06d7f",
+                "resourcePath": "sounds\\snd_tap\\snd_tap.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "338bb814-bed4-4e6d-9501-0bbc9bd3f9cf",
             "Value": {
                 "id": "954e3ded-6d19-42f8-bdf8-10ab0b87f961",

@@ -19,7 +19,7 @@ if(easeSpeed > 10)
 	/// @DnDVersion : 1
 	/// @DnDHash : 16D5149E
 	/// @DnDParent : 23440A90
-	/// @DnDArgument : "steps" "10"
+	/// @DnDArgument : "steps" "20"
 	/// @DnDArgument : "alarm" "3"
-	alarm_set(3, 10);
+	alarm_set(3, 20);
 }
