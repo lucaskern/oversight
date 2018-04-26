@@ -10622,7 +10622,7 @@
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
+    "textureGroupId": "98f27ad4-d717-432f-b35b-c65a1d108efe",
     "type": 0,
     "width": 1920,
     "xorig": 0,

@@ -6,9 +6,9 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 132,
+    "bbox_bottom": 104,
     "bbox_left": 0,
-    "bbox_right": 328,
+    "bbox_right": 838,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -41,6 +41,13 @@
                     "mvc": "1.0",
                     "FrameId": "34c093b9-0373-4439-8949-e55eb8a6d90c",
                     "LayerId": "583ea41e-f153-4f6e-b52f-efc0ef8131ca"
+                },
+                {
+                    "id": "54237be7-20e9-418a-b02b-0f369650f476",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "34c093b9-0373-4439-8949-e55eb8a6d90c",
+                    "LayerId": "161e9dc1-8325-48e5-bc8e-f5b442cf0d42"
                 }
             ]
         },
@@ -70,6 +77,13 @@
                     "mvc": "1.0",
                     "FrameId": "2e718316-aaba-49ba-97f3-0190444b9cb3",
                     "LayerId": "583ea41e-f153-4f6e-b52f-efc0ef8131ca"
+                },
+                {
+                    "id": "8ad960e8-9b7a-48ed-b1e1-09ddd2eb5a11",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "2e718316-aaba-49ba-97f3-0190444b9cb3",
+                    "LayerId": "161e9dc1-8325-48e5-bc8e-f5b442cf0d42"
                 }
             ]
         }
@@ -79,6 +93,17 @@
     "height": 150,
     "layers": [
         {
+            "id": "161e9dc1-8325-48e5-bc8e-f5b442cf0d42",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "daca33ae-c5d1-445b-986b-e638a87cbffb",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
             "id": "583ea41e-f153-4f6e-b52f-efc0ef8131ca",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
@@ -87,7 +112,7 @@
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
-            "visible": true
+            "visible": false
         },
         {
             "id": "bc0512ad-f76a-480f-a68e-48f8f94634e5",
@@ -111,7 +136,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 400,
-    "xorig": 200,
+    "width": 850,
+    "xorig": 425,
     "yorig": 75
 }

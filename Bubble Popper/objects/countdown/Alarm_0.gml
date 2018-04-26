@@ -68,13 +68,12 @@ if(global.isStart)
 				/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 				/// @DnDVersion : 1
 				/// @DnDHash : 2D1C7297
+				/// @DnDDisabled : 1
 				/// @DnDApplyTo : 51c4d7aa-7f62-43e6-b369-a61b62c6914e
 				/// @DnDParent : 06AF04E9
 				/// @DnDArgument : "value" "room_height / 2"
 				/// @DnDArgument : "instvar" "1"
-				with(obj_startAnim) {
-				y = room_height / 2;
-				}
+			
 			
 				/// @DnDAction : YoYo Games.Common.Set_Global
 				/// @DnDVersion : 1

@@ -3670,7 +3670,7 @@
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
+    "textureGroupId": "0abc07ae-cba8-4a77-9f27-a12e853dd9fa",
     "type": 0,
     "width": 1920,
     "xorig": 0,
