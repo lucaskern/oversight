@@ -15,7 +15,7 @@ draw_set_valign(fa_top );
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
-/// @DnDHash : 49F6545A
+/// @DnDHash : 64126275
 draw_set_colour($FFFFFFFF & $ffffff);
 draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 
@@ -95,14 +95,45 @@ if(roomCurr == room_reveal)
 	/// @DnDArgument : "key" ""top5""
 	var top5 = ini_read_real("highScores", "top5", "default");
 
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 7AA4EC6A
+	/// @DnDParent : 5614EC99
+	/// @DnDArgument : "font" "fnt_dailyTitle"
+	/// @DnDSaveInfo : "font" "459e7683-4824-4017-a3bd-db1ccd092d8f"
+	draw_set_font(fnt_dailyTitle);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 49F6545A
+	/// @DnDParent : 5614EC99
+	/// @DnDArgument : "color" "$FF23E5FF"
+	draw_set_colour($FF23E5FF & $ffffff);
+	draw_set_alpha(($FF23E5FF >> 24) / $ff);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
 	/// @DnDHash : 47B8217B
 	/// @DnDParent : 5614EC99
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "room_height / 2 - 400"
+	/// @DnDArgument : "y" "room_height / 2 - 300"
 	/// @DnDArgument : "caption" ""Daily High Scores""
-	draw_text(room_width / 2, room_height / 2 - 400, string("Daily High Scores") + "");
+	draw_text(room_width / 2, room_height / 2 - 300, string("Daily High Scores") + "");
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 3D68EDD3
+	/// @DnDParent : 5614EC99
+	draw_set_colour($FFFFFFFF & $ffffff);
+	draw_set_alpha(($FFFFFFFF >> 24) / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C55A99A
+	/// @DnDParent : 5614EC99
+	/// @DnDArgument : "font" "fnt_score"
+	/// @DnDSaveInfo : "font" "5ab0f9ac-35ae-4933-bb72-fd9e4e02b97f"
+	draw_set_font(fnt_score);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1

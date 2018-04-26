@@ -30,9 +30,10 @@ randBSize = random_range( 0.5, 1.2) ;
 /// @DnDVersion : 1
 /// @DnDHash : 77FCEFB0
 /// @DnDArgument : "var" "flip"
+/// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "max" "2"
-flip = floor(random_range(0, 2 + 1));
+var flip = floor(random_range(0, 2 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

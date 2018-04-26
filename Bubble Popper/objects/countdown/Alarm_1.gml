@@ -10,8 +10,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 1445DEC6
 /// @DnDApplyTo : 41b6a856-0b1b-49f7-8740-2a2a86a73c3b
-/// @DnDArgument : "value" "room_height - 200"
+/// @DnDArgument : "value" "room_height - 100"
 /// @DnDArgument : "instvar" "1"
 with(obj_cont) {
-y = room_height - 200;
+y = room_height - 100;
 }

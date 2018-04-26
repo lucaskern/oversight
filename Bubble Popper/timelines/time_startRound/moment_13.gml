@@ -24,8 +24,8 @@ var scaleCurr = image_xscale;
 /// @DnDHash : 37A8C617
 /// @DnDArgument : "var" "scaleCurr"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "4"
-if(scaleCurr <= 4)
+/// @DnDArgument : "value" "3"
+if(scaleCurr <= 3)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
