@@ -14,10 +14,10 @@
     "layers": [
         {
             "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Assets_1",
-            "id": "1b0e0ffb-885d-411f-9f50-0e9d5df19a21",
+            "name": "Assets_2",
+            "id": "98a863c9-bf6f-456c-bd92-456ad7665237",
             "assets": [
-
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_279FF51A","id": "c34d35ad-7e04-44ad-9c2d-5da2068f3580","animationFPS": 24,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "d0e9d5d3-5c67-486e-b162-0edf6d669e35","userdefined_animFPS": false,"x": 0,"y": 0}
             ],
             "depth": 0,
             "grid_x": 32,
@@ -90,15 +90,15 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "c5d41f69-5f1a-4d07-976b-0406ea4c104c",
+            "spriteId": "516e493c-c756-482c-8f03-c68e632f43b9",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
             "vtiled": false,
-            "x": 0,
-            "y": 0
+            "x": -50,
+            "y": -50
         }
     ],
     "modelName": "GMRoom",
