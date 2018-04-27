@@ -11,7 +11,82 @@
                     "id": "ce361a7e-1f69-4b4f-a68a-3a0af7907ff5",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "Default1",
+                    "groupName": "Rev1",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 2,
+                "Value": {
+                    "id": "74a473ae-2c75-41d5-9e6c-8a8e2bdede44",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Rev2",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "363e3a8d-b985-4425-b6a4-604dc02f42e2",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Rev3",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 4,
+                "Value": {
+                    "id": "5153f51c-5daa-4aa9-bb9c-5ded52df8229",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Rev4",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 5,
+                "Value": {
+                    "id": "5cba8579-574b-41a4-b8bc-f1301cdacc7e",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Rev5",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 6,
+                "Value": {
+                    "id": "686129a1-d1a1-49d8-911d-6e045d5a7891",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Rev6",
                     "targets": 29263750006690030,
                     "autocrop": true,
                     "border": 2,

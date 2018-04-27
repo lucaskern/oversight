@@ -4,12 +4,15 @@
     "mvc": "1.1",
     "name": "abe01626-993e-41be-bf69-797d66da40b2",
     "children": [
-        "3f531232-4c14-409d-aee1-8dfada654bec",
-        "23ff22ab-d9c5-4f4f-b4f8-b360f3636b0c",
-        "46bc5c8b-f0eb-4a09-9cdb-debed87ec9b0",
-        "fb50ccab-abfa-450e-b3e2-43e0adba83a0",
-        "7510a1ed-2d5f-446d-8cae-4dc92ca974af",
-        "7c34e59d-783e-4960-bbe9-7d43e61da13a"
+        "7c34e59d-783e-4960-bbe9-7d43e61da13a",
+        "e8b3dfda-a662-4bcb-8ede-ffc9f8089dd9",
+        "65ba1be6-7d27-4afa-a93b-cd1944bb8f29",
+        "d029691b-de7d-490b-98d3-6912b98deb6e",
+        "7152b60e-6045-40a3-94f0-16463f69f364",
+        "d1dbcdbc-172e-49ed-9ffb-33566ab55bf3",
+        "42d33c66-5ec0-43ce-a304-63dab3eff148",
+        "860da40a-9c68-44d4-95a3-5df971d5f4c9",
+        "672fe589-0cce-434f-b13c-ba15f62f1a94"
     ],
     "filterType": "GMSprite",
     "folderName": "Reveals",

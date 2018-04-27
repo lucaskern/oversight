@@ -42,6 +42,14 @@ if(x >= xstart + 250)
 	/// @DnDArgument : "var" "points"
 	global.points += 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 3BCC315E
+	/// @DnDParent : 45BE04E6
+	/// @DnDArgument : "soundid" "slideS"
+	/// @DnDSaveInfo : "soundid" "459a7abd-ac0a-49b8-86da-17aebbd64088"
+	audio_play_sound(slideS, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 4C96AF0B

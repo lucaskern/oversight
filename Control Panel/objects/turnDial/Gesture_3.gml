@@ -36,6 +36,14 @@ if(rotateAmount <= -360)
 	/// @DnDArgument : "var" "points"
 	global.points += 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 51464AB8
+	/// @DnDParent : 2D436361
+	/// @DnDArgument : "soundid" "turnS"
+	/// @DnDSaveInfo : "soundid" "b4febf44-8e93-4e5d-aff7-88a78bbaec03"
+	audio_play_sound(turnS, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 097590DF

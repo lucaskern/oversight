@@ -11,6 +11,13 @@ instance_destroy();
 /// @DnDArgument : "var" "points"
 global.points += 1;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 3C62E06C
+/// @DnDArgument : "soundid" "pushS"
+/// @DnDSaveInfo : "soundid" "b16f286c-0a61-463a-bbcc-1dd37146c5a0"
+audio_play_sound(pushS, 0, 0);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 0284677A

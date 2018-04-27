@@ -21,6 +21,14 @@ if(global.points == 9)
 	/// @DnDArgument : "var" "global.points"
 	global.points += 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 54FC6249
+	/// @DnDParent : 7806D848
+	/// @DnDArgument : "soundid" "sPage"
+	/// @DnDSaveInfo : "soundid" "7bcff4f2-4943-44d1-bab8-bcde3bc14d84"
+	audio_play_sound(sPage, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 289BE293
@@ -54,6 +62,14 @@ else
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "global.points"
 		global.points += 1;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5181C162
+		/// @DnDParent : 169B41A2
+		/// @DnDArgument : "soundid" "sPage"
+		/// @DnDSaveInfo : "soundid" "7bcff4f2-4943-44d1-bab8-bcde3bc14d84"
+		audio_play_sound(sPage, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
@@ -98,6 +114,14 @@ else
 			/// @DnDArgument : "var" "global.points"
 			global.points += 1;
 		
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 540B8434
+			/// @DnDParent : 2CA422EF
+			/// @DnDArgument : "soundid" "sPage"
+			/// @DnDSaveInfo : "soundid" "7bcff4f2-4943-44d1-bab8-bcde3bc14d84"
+			audio_play_sound(sPage, 0, 0);
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 62114B68
@@ -133,6 +157,14 @@ else
 				/// @DnDArgument : "var" "global.points"
 				global.points += 1;
 			
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1
+				/// @DnDHash : 451A243B
+				/// @DnDParent : 19A48100
+				/// @DnDArgument : "soundid" "sPage"
+				/// @DnDSaveInfo : "soundid" "7bcff4f2-4943-44d1-bab8-bcde3bc14d84"
+				audio_play_sound(sPage, 0, 0);
+			
 				/// @DnDAction : YoYo Games.Instances.Set_Alarm
 				/// @DnDVersion : 1
 				/// @DnDHash : 077B7AC3
@@ -167,6 +199,14 @@ else
 					/// @DnDArgument : "expr_relative" "1"
 					/// @DnDArgument : "var" "global.points"
 					global.points += 1;
+				
+					/// @DnDAction : YoYo Games.Audio.Play_Audio
+					/// @DnDVersion : 1
+					/// @DnDHash : 6422F31B
+					/// @DnDParent : 2FDFE2AD
+					/// @DnDArgument : "soundid" "s50"
+					/// @DnDSaveInfo : "soundid" "27bd4b9f-6070-4370-b33e-bcebfb72891e"
+					audio_play_sound(s50, 0, 0);
 				
 					/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 					/// @DnDVersion : 1

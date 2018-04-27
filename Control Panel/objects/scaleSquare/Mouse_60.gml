@@ -61,6 +61,14 @@ if(image_xscale >= 1.64)
 	/// @DnDArgument : "var" "points"
 	global.points += 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 41EA3B8E
+	/// @DnDParent : 102C763E
+	/// @DnDArgument : "soundid" "scaleS"
+	/// @DnDSaveInfo : "soundid" "f54507f6-163f-4873-ad3a-90b857264ea5"
+	audio_play_sound(scaleS, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 28101730
